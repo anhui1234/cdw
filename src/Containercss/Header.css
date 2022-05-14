@@ -1,0 +1,55 @@
+.backgroundheader{
+   
+    left: 0;
+    right: 0;
+    top:0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    background-color: white;
+   
+    display: flex;
+    flex-direction: row;
+}
+.backgroundheader img{
+   width: 10%;
+  margin-left: 10%;
+}
+.backgroundheader a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    padding: 10px 10px 20px 20px;
+    text-transform: uppercase;
+}
+.backgroundheader .center{
+   font-size: 18px;
+    margin-top: 30px;
+   display: flex;
+   margin-left: 150px;
+  
+}
+.backgroundheader .right{
+    display: flex;
+    height: 30px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.backgroundheader .right #search-text{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    width: 0;
+}
+.backgroundheader .right:hover #search-text{
+    width: 200px;
+    padding: 10px 15px;
+}
+.backgroundheader .right #search-icon{
+    background-color: none;
+    border: none;
+    padding: 5px 12px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
